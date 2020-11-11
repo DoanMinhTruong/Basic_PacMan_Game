@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin :0 ;
+}
+#main{
+    display: inline-block;
+}
+.square, .food ,.pacman{
+    display: inline-block;
+    padding:0;
+    margin:0;
+    border: 1px solid #DE561F;
+    width: 55px;
+    height:55px;
+    background-size: cover;
+}
+.square{
+    background-image: url("square.png");
+    
+}
+.food{
+    background-image: url("food.png");
+}
+.pacman{
+    background-color: black;
+}
+#score{
+    display: inline-block;
+    font-size: 100px;
+}
